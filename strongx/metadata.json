@@ -1,0 +1,6 @@
+{
+  "name": "StrongX - Plataforma de Criação de Sites com IA",
+  "description": "Plataforma SaaS profissional para criação instantânea de sites modernos através de Inteligência Artificial sem código.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

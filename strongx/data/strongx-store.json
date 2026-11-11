@@ -1,0 +1,596 @@
+{
+  "users": [
+    {
+      "id": "usr_4b3f08f1",
+      "firstName": "Demo",
+      "lastName": "User",
+      "email": "demo@strongx.com",
+      "passwordHash": "789263017758b986f35c682473b71369e6e675bea7467165c733e0f8c53550cc",
+      "createdAt": "2026-11-11T00:47:56.454Z",
+      "lastLoginAt": "2026-11-11T00:47:56.454Z",
+      "status": "active",
+      "credits": 150,
+      "accountType": "creator",
+      "emailVerified": true,
+      "ageDemographic": "adult"
+    },
+    {
+      "id": "usr_6a071ff5",
+      "firstName": "Alex",
+      "lastName": "Silva",
+      "email": "alex@example.com",
+      "passwordHash": "789263017758b986f35c682473b71369e6e675bea7467165c733e0f8c53550cc",
+      "createdAt": "2026-11-11T01:03:58.757Z",
+      "lastLoginAt": "2026-11-11T01:03:58.757Z",
+      "status": "active",
+      "credits": 950,
+      "accountType": "creator",
+      "emailVerified": true,
+      "ageDemographic": "adult",
+      "plan": "pro"
+    }
+  ],
+  "projects": [],
+  "activities": [
+    {
+      "id": "act_5ce39dc6",
+      "timestamp": "2026-11-11T01:04:08.856Z",
+      "userId": "usr_6a071ff5",
+      "action": "Pagamento concluído: +300 créditos (Recarga Avulsa: Pacote de 300 Créditos)",
+      "creditsDeducted": 0
+    },
+    {
+      "id": "act_a5d3cacf",
+      "timestamp": "2026-11-11T01:04:03.576Z",
+      "userId": "usr_6a071ff5",
+      "action": "Pagamento concluído: +500 créditos (Subscrição Mensal Plano Pro Creator (+500 Créditos))",
+      "creditsDeducted": 0
+    },
+    {
+      "id": "act_3740ca95",
+      "timestamp": "2026-11-11T01:03:58.758Z",
+      "userId": "usr_6a071ff5",
+      "action": "Conta criada com sucesso",
+      "creditsDeducted": 0
+    },
+    {
+      "id": "act_b28ec34e",
+      "timestamp": "2026-11-11T00:47:56.455Z",
+      "userId": "usr_4b3f08f1",
+      "action": "Conta criada com sucesso",
+      "creditsDeducted": 0
+    }
+  ],
+  "transactions": [
+    {
+      "id": "tx_cc3b975f-d",
+      "timestamp": "2026-11-11T01:04:08.856Z",
+      "userId": "usr_6a071ff5",
+      "credits": 300,
+      "type": "credit_purchase",
+      "reason": "Recarga Avulsa: Pacote de 300 Créditos ($22 USD via PAYPAL)"
+    },
+    {
+      "id": "tx_5edf6fc0-0",
+      "timestamp": "2026-11-11T01:04:03.576Z",
+      "userId": "usr_6a071ff5",
+      "credits": 500,
+      "type": "plan_subscription",
+      "reason": "Subscrição Mensal Plano Pro Creator (+500 Créditos) ($19 USD via VISA)"
+    },
+    {
+      "id": "tx_9cc17290-5",
+      "timestamp": "2026-11-11T01:03:58.757Z",
+      "userId": "usr_6a071ff5",
+      "credits": 150,
+      "type": "initial_grant",
+      "reason": "Bónus de boas-vindas: 150 créditos iniciais"
+    },
+    {
+      "id": "tx_535cc49c-e",
+      "timestamp": "2026-11-11T00:47:56.454Z",
+      "userId": "usr_4b3f08f1",
+      "credits": 150,
+      "type": "initial_grant",
+      "reason": "Bónus de boas-vindas: 150 créditos iniciais"
+    }
+  ],
+  "visitors": [
+    {
+      "id": "vis_d07e26f8",
+      "anonymousId": "anon_4982",
+      "country": "Portugal",
+      "device": "desktop",
+      "browser": "Chrome",
+      "referrer": "https://google.com",
+      "visitedAt": "2026-11-01T00:47:50.188Z",
+      "voluntaryAge": "youth"
+    },
+    {
+      "id": "vis_177d526f",
+      "anonymousId": "anon_9411",
+      "country": "Brasil",
+      "device": "desktop",
+      "browser": "Safari",
+      "referrer": "Direct",
+      "visitedAt": "2026-11-01T05:47:50.189Z",
+      "voluntaryAge": "adult"
+    },
+    {
+      "id": "vis_fec2eea7",
+      "anonymousId": "anon_9796",
+      "country": "Espanha",
+      "device": "desktop",
+      "browser": "Firefox",
+      "referrer": "https://google.com",
+      "visitedAt": "2026-11-01T10:47:50.189Z",
+      "voluntaryAge": "adult"
+    },
+    {
+      "id": "vis_366b91b5",
+      "anonymousId": "anon_3526",
+      "country": "Reino Unido",
+      "device": "mobile",
+      "browser": "Edge",
+      "referrer": "Direct",
+      "visitedAt": "2026-11-01T15:47:50.189Z",
+      "voluntaryAge": "youth"
+    },
+    {
+      "id": "vis_cc0251e7",
+      "anonymousId": "anon_914",
+      "country": "França",
+      "device": "mobile",
+      "browser": "Chrome",
+      "referrer": "https://google.com",
+      "visitedAt": "2026-11-01T20:47:50.189Z",
+      "voluntaryAge": "adult"
+    },
+    {
+      "id": "vis_2d07c0af",
+      "anonymousId": "anon_4318",
+      "country": "Alemanha",
+      "device": "tablet",
+      "browser": "Safari",
+      "referrer": "Direct",
+      "visitedAt": "2026-11-02T01:47:50.189Z",
+      "voluntaryAge": "minor"
+    },
+    {
+      "id": "vis_4064cc4a",
+      "anonymousId": "anon_2726",
+      "country": "Estados Unidos",
+      "device": "desktop",
+      "browser": "Firefox",
+      "referrer": "https://google.com",
+      "visitedAt": "2026-11-02T06:47:50.189Z",
+      "voluntaryAge": "youth"
+    },
+    {
+      "id": "vis_f43a965c",
+      "anonymousId": "anon_7015",
+      "country": "Portugal",
+      "device": "desktop",
+      "browser": "Edge",
+      "referrer": "Direct",
+      "visitedAt": "2026-11-02T11:47:50.189Z",
+      "voluntaryAge": "adult"
+    },
+    {
+      "id": "vis_a936093d",
+      "anonymousId": "anon_1537",
+      "country": "Brasil",
+      "device": "desktop",
+      "browser": "Chrome",
+      "referrer": "https://google.com",
+      "visitedAt": "2026-11-02T16:47:50.189Z",
+      "voluntaryAge": "adult"
+    },
+    {
+      "id": "vis_782c0a5b",
+      "anonymousId": "anon_4198",
+      "country": "Espanha",
+      "device": "mobile",
+      "browser": "Safari",
+      "referrer": "Direct",
+      "visitedAt": "2026-11-02T21:47:50.189Z",
+      "voluntaryAge": "youth"
+    },
+    {
+      "id": "vis_2ac197f6",
+      "anonymousId": "anon_6500",
+      "country": "Reino Unido",
+      "device": "mobile",
+      "browser": "Firefox",
+      "referrer": "https://google.com",
+      "visitedAt": "2026-11-03T02:47:50.189Z",
+      "voluntaryAge": "adult"
+    },
+    {
+      "id": "vis_c0d1977b",
+      "anonymousId": "anon_2799",
+      "country": "França",
+      "device": "tablet",
+      "browser": "Edge",
+      "referrer": "Direct",
+      "visitedAt": "2026-11-03T07:47:50.189Z",
+      "voluntaryAge": "minor"
+    },
+    {
+      "id": "vis_181673a3",
+      "anonymousId": "anon_4453",
+      "country": "Alemanha",
+      "device": "desktop",
+      "browser": "Chrome",
+      "referrer": "https://google.com",
+      "visitedAt": "2026-11-03T12:47:50.189Z",
+      "voluntaryAge": "youth"
+    },
+    {
+      "id": "vis_9229fbe3",
+      "anonymousId": "anon_9074",
+      "country": "Estados Unidos",
+      "device": "desktop",
+      "browser": "Safari",
+      "referrer": "Direct",
+      "visitedAt": "2026-11-03T17:47:50.189Z",
+      "voluntaryAge": "adult"
+    },
+    {
+      "id": "vis_10314ef9",
+      "anonymousId": "anon_7143",
+      "country": "Portugal",
+      "device": "desktop",
+      "browser": "Firefox",
+      "referrer": "https://google.com",
+      "visitedAt": "2026-11-03T22:47:50.189Z",
+      "voluntaryAge": "adult"
+    },
+    {
+      "id": "vis_c30d9945",
+      "anonymousId": "anon_6464",
+      "country": "Brasil",
+      "device": "mobile",
+      "browser": "Edge",
+      "referrer": "Direct",
+      "visitedAt": "2026-11-04T03:47:50.189Z",
+      "voluntaryAge": "youth"
+    },
+    {
+      "id": "vis_33be0f34",
+      "anonymousId": "anon_4234",
+      "country": "Espanha",
+      "device": "mobile",
+      "browser": "Chrome",
+      "referrer": "https://google.com",
+      "visitedAt": "2026-11-04T08:47:50.189Z",
+      "voluntaryAge": "adult"
+    },
+    {
+      "id": "vis_9820a609",
+      "anonymousId": "anon_9092",
+      "country": "Reino Unido",
+      "device": "tablet",
+      "browser": "Safari",
+      "referrer": "Direct",
+      "visitedAt": "2026-11-04T13:47:50.189Z",
+      "voluntaryAge": "minor"
+    },
+    {
+      "id": "vis_bafd4f17",
+      "anonymousId": "anon_9229",
+      "country": "França",
+      "device": "desktop",
+      "browser": "Firefox",
+      "referrer": "https://google.com",
+      "visitedAt": "2026-11-04T18:47:50.189Z",
+      "voluntaryAge": "youth"
+    },
+    {
+      "id": "vis_e2715da4",
+      "anonymousId": "anon_9928",
+      "country": "Alemanha",
+      "device": "desktop",
+      "browser": "Edge",
+      "referrer": "Direct",
+      "visitedAt": "2026-11-04T23:47:50.189Z",
+      "voluntaryAge": "adult"
+    },
+    {
+      "id": "vis_2c81ff7e",
+      "anonymousId": "anon_2139",
+      "country": "Estados Unidos",
+      "device": "desktop",
+      "browser": "Chrome",
+      "referrer": "https://google.com",
+      "visitedAt": "2026-11-05T04:47:50.189Z",
+      "voluntaryAge": "adult"
+    },
+    {
+      "id": "vis_bc97edd5",
+      "anonymousId": "anon_5708",
+      "country": "Portugal",
+      "device": "mobile",
+      "browser": "Safari",
+      "referrer": "Direct",
+      "visitedAt": "2026-11-05T09:47:50.189Z",
+      "voluntaryAge": "youth"
+    },
+    {
+      "id": "vis_50e74b67",
+      "anonymousId": "anon_6901",
+      "country": "Brasil",
+      "device": "mobile",
+      "browser": "Firefox",
+      "referrer": "https://google.com",
+      "visitedAt": "2026-11-05T14:47:50.189Z",
+      "voluntaryAge": "adult"
+    },
+    {
+      "id": "vis_eba9ad92",
+      "anonymousId": "anon_3940",
+      "country": "Espanha",
+      "device": "tablet",
+      "browser": "Edge",
+      "referrer": "Direct",
+      "visitedAt": "2026-11-05T19:47:50.189Z",
+      "voluntaryAge": "minor"
+    },
+    {
+      "id": "vis_faf68751",
+      "anonymousId": "anon_1717",
+      "country": "Reino Unido",
+      "device": "desktop",
+      "browser": "Chrome",
+      "referrer": "https://google.com",
+      "visitedAt": "2026-11-06T00:47:50.189Z",
+      "voluntaryAge": "youth"
+    },
+    {
+      "id": "vis_7fec4b96",
+      "anonymousId": "anon_6136",
+      "country": "França",
+      "device": "desktop",
+      "browser": "Safari",
+      "referrer": "Direct",
+      "visitedAt": "2026-11-06T05:47:50.189Z",
+      "voluntaryAge": "adult"
+    },
+    {
+      "id": "vis_b84e5105",
+      "anonymousId": "anon_878",
+      "country": "Alemanha",
+      "device": "desktop",
+      "browser": "Firefox",
+      "referrer": "https://google.com",
+      "visitedAt": "2026-11-06T10:47:50.189Z",
+      "voluntaryAge": "adult"
+    },
+    {
+      "id": "vis_8ccae160",
+      "anonymousId": "anon_7596",
+      "country": "Estados Unidos",
+      "device": "mobile",
+      "browser": "Edge",
+      "referrer": "Direct",
+      "visitedAt": "2026-11-06T15:47:50.189Z",
+      "voluntaryAge": "youth"
+    },
+    {
+      "id": "vis_c783dfac",
+      "anonymousId": "anon_5954",
+      "country": "Portugal",
+      "device": "mobile",
+      "browser": "Chrome",
+      "referrer": "https://google.com",
+      "visitedAt": "2026-11-06T20:47:50.189Z",
+      "voluntaryAge": "adult"
+    },
+    {
+      "id": "vis_266650ed",
+      "anonymousId": "anon_7010",
+      "country": "Brasil",
+      "device": "tablet",
+      "browser": "Safari",
+      "referrer": "Direct",
+      "visitedAt": "2026-11-07T01:47:50.189Z",
+      "voluntaryAge": "minor"
+    },
+    {
+      "id": "vis_7bd8f8bf",
+      "anonymousId": "anon_2167",
+      "country": "Espanha",
+      "device": "desktop",
+      "browser": "Firefox",
+      "referrer": "https://google.com",
+      "visitedAt": "2026-11-07T06:47:50.189Z",
+      "voluntaryAge": "youth"
+    },
+    {
+      "id": "vis_60351838",
+      "anonymousId": "anon_7228",
+      "country": "Reino Unido",
+      "device": "desktop",
+      "browser": "Edge",
+      "referrer": "Direct",
+      "visitedAt": "2026-11-07T11:47:50.189Z",
+      "voluntaryAge": "adult"
+    },
+    {
+      "id": "vis_d6a030a0",
+      "anonymousId": "anon_5032",
+      "country": "França",
+      "device": "desktop",
+      "browser": "Chrome",
+      "referrer": "https://google.com",
+      "visitedAt": "2026-11-07T16:47:50.189Z",
+      "voluntaryAge": "adult"
+    },
+    {
+      "id": "vis_f54bf4a8",
+      "anonymousId": "anon_3024",
+      "country": "Alemanha",
+      "device": "mobile",
+      "browser": "Safari",
+      "referrer": "Direct",
+      "visitedAt": "2026-11-07T21:47:50.189Z",
+      "voluntaryAge": "youth"
+    },
+    {
+      "id": "vis_35e8781c",
+      "anonymousId": "anon_2869",
+      "country": "Estados Unidos",
+      "device": "mobile",
+      "browser": "Firefox",
+      "referrer": "https://google.com",
+      "visitedAt": "2026-11-08T02:47:50.189Z",
+      "voluntaryAge": "adult"
+    },
+    {
+      "id": "vis_828d4e1a",
+      "anonymousId": "anon_6884",
+      "country": "Portugal",
+      "device": "tablet",
+      "browser": "Edge",
+      "referrer": "Direct",
+      "visitedAt": "2026-11-08T07:47:50.189Z",
+      "voluntaryAge": "minor"
+    },
+    {
+      "id": "vis_60e9214f",
+      "anonymousId": "anon_5568",
+      "country": "Brasil",
+      "device": "desktop",
+      "browser": "Chrome",
+      "referrer": "https://google.com",
+      "visitedAt": "2026-11-08T12:47:50.189Z",
+      "voluntaryAge": "youth"
+    },
+    {
+      "id": "vis_4f3f811e",
+      "anonymousId": "anon_1710",
+      "country": "Espanha",
+      "device": "desktop",
+      "browser": "Safari",
+      "referrer": "Direct",
+      "visitedAt": "2026-11-08T17:47:50.189Z",
+      "voluntaryAge": "adult"
+    },
+    {
+      "id": "vis_3187ac28",
+      "anonymousId": "anon_8187",
+      "country": "Reino Unido",
+      "device": "desktop",
+      "browser": "Firefox",
+      "referrer": "https://google.com",
+      "visitedAt": "2026-11-08T22:47:50.189Z",
+      "voluntaryAge": "adult"
+    },
+    {
+      "id": "vis_8c79af58",
+      "anonymousId": "anon_4458",
+      "country": "França",
+      "device": "mobile",
+      "browser": "Edge",
+      "referrer": "Direct",
+      "visitedAt": "2026-11-09T03:47:50.189Z",
+      "voluntaryAge": "youth"
+    },
+    {
+      "id": "vis_e33b56fc",
+      "anonymousId": "anon_1510",
+      "country": "Alemanha",
+      "device": "mobile",
+      "browser": "Chrome",
+      "referrer": "https://google.com",
+      "visitedAt": "2026-11-09T08:47:50.189Z",
+      "voluntaryAge": "adult"
+    },
+    {
+      "id": "vis_3136463c",
+      "anonymousId": "anon_9737",
+      "country": "Estados Unidos",
+      "device": "tablet",
+      "browser": "Safari",
+      "referrer": "Direct",
+      "visitedAt": "2026-11-09T13:47:50.189Z",
+      "voluntaryAge": "minor"
+    },
+    {
+      "id": "vis_00a2cef6",
+      "anonymousId": "anon_5262",
+      "country": "Portugal",
+      "device": "desktop",
+      "browser": "Firefox",
+      "referrer": "https://google.com",
+      "visitedAt": "2026-11-09T18:47:50.189Z",
+      "voluntaryAge": "youth"
+    },
+    {
+      "id": "vis_290e94d5",
+      "anonymousId": "anon_3744",
+      "country": "Brasil",
+      "device": "desktop",
+      "browser": "Edge",
+      "referrer": "Direct",
+      "visitedAt": "2026-11-09T23:47:50.189Z",
+      "voluntaryAge": "adult"
+    },
+    {
+      "id": "vis_d1668257",
+      "anonymousId": "anon_3795",
+      "country": "Espanha",
+      "device": "desktop",
+      "browser": "Chrome",
+      "referrer": "https://google.com",
+      "visitedAt": "2026-11-10T04:47:50.189Z",
+      "voluntaryAge": "adult"
+    },
+    {
+      "id": "vis_b30e39e7",
+      "anonymousId": "anon_3646",
+      "country": "Reino Unido",
+      "device": "mobile",
+      "browser": "Safari",
+      "referrer": "Direct",
+      "visitedAt": "2026-11-10T09:47:50.189Z",
+      "voluntaryAge": "youth"
+    },
+    {
+      "id": "vis_a4fd0590",
+      "anonymousId": "anon_9121",
+      "country": "França",
+      "device": "mobile",
+      "browser": "Firefox",
+      "referrer": "https://google.com",
+      "visitedAt": "2026-11-10T14:47:50.189Z",
+      "voluntaryAge": "adult"
+    },
+    {
+      "id": "vis_96401e90",
+      "anonymousId": "anon_1605",
+      "country": "Alemanha",
+      "device": "tablet",
+      "browser": "Edge",
+      "referrer": "Direct",
+      "visitedAt": "2026-11-10T19:47:50.189Z",
+      "voluntaryAge": "minor"
+    }
+  ],
+  "adminLogs": [
+    {
+      "id": "adm_log_1623e397",
+      "timestamp": "2026-11-11T00:48:01.993Z",
+      "adminEmail": "flatthedragon@gmail.com",
+      "action": "Login administrativo efetuado com sucesso",
+      "ip": "127.0.0.1",
+      "success": true
+    }
+  ],
+  "config": {
+    "initialCredits": 150,
+    "generationCost": 10,
+    "adminEmail": "flatthedragon@gmail.com",
+    "maintenanceMode": false
+  }
+}
